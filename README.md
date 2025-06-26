@@ -173,15 +173,3 @@ book-api/
 └── server.js       (the main API server code)
 └── README.md       (this file)
 
-Next Steps (Potential Enhancements)
-Persistent Storage: Integrate a database (e.g., MongoDB, PostgreSQL, SQLite) to store book data persistently instead of in-memory.
-
-Error Handling: Implement more robust error handling and custom error middleware.
-
-Validation: Add more comprehensive input validation (e.g., using libraries like joi or express-validator).
-
-Authentication & Authorization: Secure the API with authentication (e.g., JWT) and authorization mechanisms.
-
-Logging: Implement a logging library (e.g., morgan, winston) for better request logging.
-
-Environment Variables: Use environment variables for sensitive information like port numbers or database connection strings.
